@@ -40,7 +40,7 @@ public class UserDAOImpl implements UserDAO {
 			usr=(User) query.getSingleResult();
 			
 			} catch (Exception e) {
-				e.printStackTrace();
+				System.out.println("Error: "+e.getMessage());
 			} finally {
 				if (session != null) {
 					//session.close();

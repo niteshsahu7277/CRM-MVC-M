@@ -13,7 +13,7 @@
 <script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
 
 </head>
-<body background="<c:url value="/resources/images/back3.jpg"/>"/>
+<body background="<c:url value="/resources/images/officebg.jpg"/>"/>
 	<div class="container">
 		<div class="col-md-offset-2 col-md-7">
 			<h2 class="text-center">Login - CRM</h2>
