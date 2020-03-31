@@ -11,11 +11,12 @@
 <img class="img1" src="<c:url value="/resources/images/niitLogo.png"/>"/>
 <h2 align="center">CRM - Customer Relationship Manager</h2>
 			<hr color="pink" size="3" />
+			
 <c:url var="travelLink" value="/travel/travelForm">
 	<c:param name="customerId" value="${usr.id}" />
 </c:url>
 
-<c:url var="leaveLink" value="/leave/leaaveForm">
+<c:url var="leaveLink" value="/leave/leaveForm">
 	<c:param name="customerId" value="${usr.id}" />
 </c:url>
 

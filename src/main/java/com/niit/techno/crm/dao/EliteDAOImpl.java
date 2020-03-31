@@ -21,6 +21,8 @@ public class EliteDAOImpl implements EliteDAO {
 	public void saveECustomer(Address add) {
 		Session currSession =sessionFactory.getCurrentSession();
 		currSession.saveOrUpdate(add);
+		
+		
 	}
 	
 	@Override
